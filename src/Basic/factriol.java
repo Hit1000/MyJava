@@ -15,7 +15,7 @@ public class factriol {
 
     static int fab(int a){
         int first=0,second = 1;
-        int gg;
+        int ggg;
             for(int i=1;i<a;i++){
                 int sum = first+second;
                 first = second;

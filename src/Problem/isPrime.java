@@ -1,8 +1,6 @@
 package Problem;
 
 public class isPrime {
-//    main
-    int a;
     public static void main(String[] args) {
         boolean ans = isPrime(33);
         System.out.println(ans);

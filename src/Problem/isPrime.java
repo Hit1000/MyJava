@@ -1,10 +1,12 @@
 package Problem;
 
 public class isPrime {
+//    main
     public static void main(String[] args) {
         boolean ans = isPrime(33);
         System.out.println(ans);
     }
+
     static boolean isPrime(int n){
         if(n<1){
             return false;

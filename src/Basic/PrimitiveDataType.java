@@ -19,5 +19,8 @@ public class PrimitiveDataType {
 
         // litrials are the representation of value or data type
 
+        System.out.println(0x4f);//hexadecimal
+        System.out.println(0177);// octal
+        System.out.println(0b1010011101);// binary
     }
 }

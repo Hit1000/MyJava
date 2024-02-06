@@ -33,6 +33,29 @@ public class Array2d {
         }
     }
 
+    static void sorts_by_row(int[][] arr, int n){
+        for(int i=0; i<n; i++){
+            Arrays.sort(arr[i]);
+        }
+    }
+
+    static void sorts_by_col(int[][] arr, int n, int m){
+        int[] a = new int[m*n];
+        int count = 0;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                a[count++] = arr[i][j];
+            }
+        }
+        Arrays.sort(a);
+        count=0;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                arr[j][i] = a[count++];
+            }
+        }
+    }
+
     static void print(int[][] arr,int n){
         for(int i=0; i<n;i++){
             for(int j:arr[i]){
@@ -52,9 +75,10 @@ public class Array2d {
 
         input(arr,n,m);
 
-        sorts(arr,n,m);
-
-        print(arr,n);
+//        sorts(arr,n,m);
+//        sorts_by_row(arr, n);
+        sorts_by_col(arr, n, m);
+        print(arr, n);
 
 
 

@@ -22,5 +22,10 @@ public class PrimitiveDataType {
         System.out.println(0x4f);//hexadecimal
         System.out.println(0177);// octal
         System.out.println(0b1010011101);// binary
+
+        int jj;
+        char chj= '9';
+        jj=chj;
+        System.out.println(jj-48+" "+chj);
     }
 }

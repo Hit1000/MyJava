@@ -11,9 +11,9 @@ public class TypeCasting {
 //        int num = (int)(input.nextFloat());
 //        System.out.println(num);
 
-//        float f = 3.5f;
-//        int x = (int)f;//force conversion to int
-//        System.out.println(x);
+        float f = 3.5f;
+        int x = (int)f;//force conversion to int
+        System.out.println(x);
 
 
 

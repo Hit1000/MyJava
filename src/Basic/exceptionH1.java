@@ -1,6 +1,6 @@
 package Basic;
 
-public class expectionHandling {
+public class exceptionH1 {
 
 //    run time error in known as expection
 //    ex - divide by 0 is run time error
@@ -58,23 +58,39 @@ public class expectionHandling {
 
         System.out.println("h");
         try {
-//            int a = 3/0;
-//            System.out.println(a);
+            int a = 3/0;
+            System.out.println(a);
 
 //            String s = null;
 //            System.out.println(s.length());
 
-            String s="abc";int a =Integer.parseInt(s);
+//            String s="abc";int a =Integer.parseInt(s);
+
+
         }
-//        catch (ArithmeticException e){
-//            System.out.println("exception statement "+e);
+//        catch (NumberFormatException e){
+//            System.out.println("number ");
 //        }
+//        catch (ArithmeticException e){
+//            System.out.println("exception statement     "+e);
+//            e.printStackTrace();
+//            System.out.println("this is e wala function :"+e);
+//        }
+        catch (Exception a){              //// used for all exception
+            System.out.println("exception    "+a);
+
+        }
+        finally {
+            System.out.println("print finally");
+        }
+
 //        catch (NullPointerException f){
 //            System.out.println("Null wala");
 //        }
-        catch (NumberFormatException e){
-            System.out.println("number ");
-        }
+
+
         System.out.println("hello");
     }
 }
+
+

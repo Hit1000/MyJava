@@ -31,9 +31,21 @@ public class string {
 //  it also round off the number
 //  %s,%f are known as placeholder it come under formating string
 
-        float f = 345.123456f;
-        System.out.printf("Formatted string is :%.3f\n", f);
-        System.out.printf("Pie : %.2f", Math.PI);
+//        float f = 345.123456f;
+//        System.out.printf("Formatted string is :%.3f\n", f);
+//        System.out.printf("Pie : %.2f", Math.PI);
 
+
+//        PERFOMANCE
+//        System.out.println((int)('a'));
+
+        StringBuilder s = new StringBuilder();
+        for(int i=0; i<26; i++){
+            char ch = (char)('a' + i);
+            System.out.print(ch+" ");
+            s.append(ch);
+        }
+        System.out.println();
+        System.out.println(s);
     }
 }

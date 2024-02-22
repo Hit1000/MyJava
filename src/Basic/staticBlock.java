@@ -6,7 +6,7 @@ public class staticBlock {
 
     }
     public static void main(String[] args){
-        System.out.println("ma hu main block");
+        System.out.println("ma hu main block ha");
 
     }
     static {

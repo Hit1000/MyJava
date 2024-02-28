@@ -1,4 +1,4 @@
-package Basic;
+package Basic.exception;
 
 public class exceptionH3 {
     public static void main(String[] args) throws Exception{

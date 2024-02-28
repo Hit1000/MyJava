@@ -1,9 +1,7 @@
-package Basic;
+package Basic.exception;
 //user define exception in java
 //a class which inher from any exception is called user define exception class
 
-
-import java.util.NoSuchElementException;
 
 public class exceptionUser {
     static void checkAge(int age) throws Exception{

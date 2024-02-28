@@ -1,4 +1,4 @@
-package Basic;
+package Basic.exception;
 
 public class exceptionH1 {
 

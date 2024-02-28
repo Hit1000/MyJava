@@ -1,4 +1,4 @@
-package Basic;
+package Basic.exception;
 
 //EH with method overriding if super class method doenot declare a exception then
 //sub class overriden method can not declare checked exception but it can delcare a unchecked

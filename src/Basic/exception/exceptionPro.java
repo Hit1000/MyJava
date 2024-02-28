@@ -1,4 +1,4 @@
-package Basic;
+package Basic.exception;
 //by default uncheck are forward in calling chain
 //checked excepthon are not forwarded in a calling chain
 

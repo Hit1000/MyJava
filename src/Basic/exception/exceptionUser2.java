@@ -1,4 +1,4 @@
-package Basic;
+package Basic.exception;
 
 public class exceptionUser2 {
     static void checkAge(int age) throws Exception{

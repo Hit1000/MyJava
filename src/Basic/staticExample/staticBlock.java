@@ -8,7 +8,7 @@ public class staticBlock {
 //    will only run once when the class is loaded first
     static {
         System.out.println("this is static block");
-        b = a*5;
+        b = a * 5;
     }
 
     public static void main(String[] args) {

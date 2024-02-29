@@ -85,7 +85,8 @@ class RDAccount_class extends Account {
         } else {
             throw new IllegalArgumentException("Invalid number of months.");
         }
-        return ((amount * interestRate) / 100)+(((noOfMonths*monthlyAmount)*interestRate)/100);
+
+        return ((amount * interestRate) / 100);//+(((noOfMonths*monthlyAmount)*interestRate)/100);
     }
 
 }
@@ -116,6 +117,7 @@ public class InterestCalculator {
                     double sbInterest = sbAccount.calculateInterest();
                     System.out.println("Interest gained: Rs. " + sbInterest);
                     break;
+
                 case 2:
                     System.out.print("Enter the FD amount: ");
                     double fdAmount = in.nextDouble();
@@ -131,6 +133,7 @@ public class InterestCalculator {
                         System.out.println("Invalid Number of days. Please enter non-negative values");
                     }
                     break;
+
                 case 3:
                     System.out.print("Enter the RD amount: ");
                     double rdAmount = in.nextDouble();
@@ -146,9 +149,11 @@ public class InterestCalculator {
                         System.out.println("Invalid Number of months. Please enter valid values");
                     }
                     break;
+
                 case 4:
                     System.out.println("Exiting...");
                     break;
+
                 default:
                     System.out.println("Invalid option. Please try again.");
                     break;

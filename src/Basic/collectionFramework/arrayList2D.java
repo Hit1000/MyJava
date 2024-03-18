@@ -1,4 +1,4 @@
-package Basic;
+package Basic.collectionFramework;
 import java.util.*;
 
 

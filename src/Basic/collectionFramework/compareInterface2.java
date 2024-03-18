@@ -1,6 +1,4 @@
-package Basic;
-
-import java.util.Comparator;
+package Basic.collectionFramework;
 
 class staff{
     public int age;

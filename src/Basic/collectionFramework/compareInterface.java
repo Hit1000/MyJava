@@ -1,4 +1,4 @@
-package Basic;
+package Basic.collectionFramework;
 //java comparable interface
 //this is found in java.lang package
 //this interface contain only one method compareTo(obj)

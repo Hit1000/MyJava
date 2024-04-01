@@ -3,6 +3,7 @@ package Basic.Inheritance;
 public class boxWeight extends box{
     double weight;
     boxWeight(){
+        super();
         this.weight = -1;
     }
     public boxWeight(boxWeight old){

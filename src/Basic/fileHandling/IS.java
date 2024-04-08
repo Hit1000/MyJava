@@ -19,17 +19,18 @@ Input stream sub classes
 import java.io.*;
 public class IS {
     public static void main(String[] args) {
-     try {
-        FileInputStream ob = new FileInputStream("src/Basic/fileHandling/Outputfile.txt");
-        int k ;//= ob.read();
-//        System.out.println(k + " " + (char) (k));
-        while((k=ob.read()) != -1){
-            System.out.print((char)(k));
+        try {
+            FileInputStream ob = new FileInputStream("src/Basic/fileHandling/Outputfile.txt");
+            int k ;//= ob.read();
+    //        System.out.println(k + " " + (char) (k));
+            while((k=ob.read()) != -1){
+                System.out.print((char)(k));
+            }
+            ob.close();
         }
-        ob.close();
-    }
-    catch(IOException e){
-        System.out.println(e);
-    }
+        catch(IOException e){
+            System.out.println(e);
+        }
+
     }
 }

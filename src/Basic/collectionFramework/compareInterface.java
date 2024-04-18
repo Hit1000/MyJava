@@ -2,7 +2,8 @@ package Basic.collectionFramework;
 //java comparable interface
 //this is found in java.lang package
 //this interface contain only one method compareTo(obj)
-//it provide a single sorting seq only it mean u can element on the basic of single element only
+//it provide a single sorting seq only it mean u can element on the basic
+// of single element only
 
 
 import java.util.ArrayList;

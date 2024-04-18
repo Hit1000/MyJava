@@ -1,8 +1,11 @@
 package Basic.interfaceExample;
 
-public class CAR implements engine, brakes{
+public class CAR implements engine, brakes, media{
 
 
+    public void p(){
+        System.out.println("prize " +price+ " :this is used by method ");
+    }
     @Override
     public void brake() {
         System.out.println("this is a brake");

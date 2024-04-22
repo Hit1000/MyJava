@@ -1,4 +1,4 @@
-package Basic;
+package Basic.other;
 
 public class thisVar {
 //    this can be used ref the current class instance var

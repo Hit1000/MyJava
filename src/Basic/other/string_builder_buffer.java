@@ -1,4 +1,4 @@
-package Basic;
+package Basic.other;
 
 public class string_builder_buffer {
 //    gernally string is squence of char but in java string is object that represent char

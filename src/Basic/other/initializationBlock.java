@@ -1,4 +1,4 @@
-package Basic;
+package Basic.other;
 
 /*
 two type of Initialization block

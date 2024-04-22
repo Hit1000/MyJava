@@ -2,9 +2,9 @@ package Problem;
 
 public class cellWithOddValue {
     public static void main(String[] args) {
-        int[][] indices = {{0, 1}, {1, 1}};
+        int[][] indices = {{1, 1}, {0, 0}};
         int m = 2;
-        int n = 3;
+        int n = 2;
 
         int[] row = new int[m];
         int[] col = new int[n];
@@ -24,11 +24,13 @@ public class cellWithOddValue {
         System.out.println();
 
         int sum = 0;
-        for (int i = 0; i < indices.length; i++) {
-            for (int j = 0; j < indices[0].length; j++) {
-                System.out.print(indices[i][j]);
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if(((row[i] + col[j])&1) == 1){
+                    sum++;
+                }
             }
-            System.out.println();
         }
+        System.out.println(sum);
     }
 }

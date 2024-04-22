@@ -1,4 +1,4 @@
-package Basic;
+package Basic.other;
 
 public class Overloading {
     public static void main(String[] args) {

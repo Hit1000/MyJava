@@ -1,4 +1,4 @@
-package Basic;
+package Basic.other;
 
 class Construster {
 //    special function having same name as class

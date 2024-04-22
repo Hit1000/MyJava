@@ -1,4 +1,4 @@
-package Basic;
+package Basic.other;
 
 public class thisCon {
     int a=23,b=3;

@@ -1,4 +1,4 @@
-package Basic;
+package Basic.other;
 
 import org.w3c.dom.ls.LSOutput;
 

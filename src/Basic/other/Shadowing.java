@@ -1,4 +1,4 @@
-package Basic;
+package Basic.other;
 
 public class Shadowing {
     static int x=10;// this will be shadowed as line 8 lower level hidding the upper level

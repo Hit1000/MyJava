@@ -20,9 +20,14 @@ public class exceptionPro {
 //        }
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         exceptionPro a = new exceptionPro();
-        a.p();
+        try{
+            a.p();
+
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
         System.out.println("hello");
     }
 

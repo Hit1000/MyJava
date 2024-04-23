@@ -68,12 +68,13 @@ public class CustomGenArrayList<T> {
 
 //        System.out.println(list);
 
-        ArrayList<Integer> list2 = new ArrayList<>();
+//        ArrayList<Integer> list2 = new ArrayList<>();
 //        list2.add("dfghj");
 
 
         CustomGenArrayList<Integer> list3 = new CustomGenArrayList<>();
-        for (int i = 0; i < 14; i++) {
+
+        for (int i = 0; i < 14; ++i) {
             list3.add(2 * i);
         }
 

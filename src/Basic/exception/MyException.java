@@ -1,8 +1,8 @@
 package Basic.exception;
 
-public class MyException {
+public class MyException extends Exception{
 
-    public static void main(String[] args) {
-
+    public MyException(String message) {
+        super(message);
     }
 }

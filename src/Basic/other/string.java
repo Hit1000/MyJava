@@ -1,5 +1,14 @@
 package Basic.other;
 import java.util.*;
+/*
+.equals();
+.compareTo();
+.toUpperCase();
+.toLowerCase();
+.indexOf();
+.lastIndexOf();
+.substring();
+ */
 public class string {
     public String toString(){
         String any="ldf";
@@ -47,5 +56,15 @@ public class string {
         }
         System.out.println();
         System.out.println(s);
+
+        String s1 = "hti";
+        String s2 = new String("hti");
+        System.out.println(s1.equals(s2));
+        System.out.println(s1.compareTo(s2));
+        int i = s1.indexOf("ti");
+
+        System.out.println(i);
+
+
     }
 }

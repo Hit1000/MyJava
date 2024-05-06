@@ -10,6 +10,7 @@ public class Main {
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
+
     }
     static int div(int a, int b) throws Exception {
         if(b==0){

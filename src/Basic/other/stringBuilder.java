@@ -43,10 +43,10 @@ public class stringBuilder {
 //        Sunil Sunli Suinl Suiln Sulin
         permute(su,0,su.length()-1);
 
-
+        System.out.println();
         // convert the value of string into int
         StringBuilder s5 = new StringBuilder("02002");
-        System.out.println(Integer.parseInt((String.valueOf(s5))));
+        System.out.println("value of "+Integer.parseInt((String.valueOf(s5))));
 
 
 

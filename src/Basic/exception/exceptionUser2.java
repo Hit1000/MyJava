@@ -2,10 +2,16 @@ package Basic.exception;
 
 public class exceptionUser2 {
     static void checkAge(int age) throws Exception{
-        if(age<18){
-            throw new powerException("age less ha chal haat");
-        }else {
-            System.out.println("valid age");
+        try{
+            if (age < 18) {
+                throw new powerException("age less ha chal haat");
+            } else {
+                System.out.println("valid age");
+            }
+        }
+        catch (powerException e){
+            System.out.println(e.getClass()+" "+e);
+            System.out.println(e);
         }
     }
     public static void main(String[] args) throws Exception {

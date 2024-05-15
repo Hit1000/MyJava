@@ -8,6 +8,7 @@ public class string_builder_buffer {
 //    exist in pool a ref is return if string not exist a new instance is created
 //
     static char[] ch = {'a','b','c'};
+
     static String s = new String(ch);
 
     public static void main(String[] args) {

@@ -14,8 +14,13 @@ public class arrayList {
     public static void main(String[] args) {
 
         ArrayList<Integer> a = new ArrayList<>();
+        ArrayList<Integer> b = new ArrayList<>();
+        b.add(1);
+        b.add(1);
+        b.add(1);
 
         a.add(5);
+        a.addAll(b);
         a.add(4);
         a.add(4);
         a.addFirst(94); //// add at first place
@@ -27,8 +32,9 @@ public class arrayList {
 //        System.out.println(a);
 
         for(Object i :a){ ////work for Integer, int, and object is as auto in cpp
-            System.out.println(i);
+            System.out.print(i+" ");
         }
+        System.out.println();
 
         a.remove(4);
         System.out.println(a);
@@ -46,5 +52,19 @@ public class arrayList {
 
         System.out.println(a.indexOf(9));
         System.out.println(a.lastIndexOf(9));
+
+
+        ArrayList<Integer> re = new ArrayList<>();
+        ArrayList<Integer> rr = new ArrayList<>();
+        re.add(1);
+        re.add(3);
+        re.add(2);
+        rr.add(3);
+        rr.add(4);
+        rr.add(2);
+        System.out.println(re.contains(1));
+        re.retainAll(rr);// return intersection of elements
+        System.out.println(re);
+        System.out.println(re.indexOf(3));
     }
 }

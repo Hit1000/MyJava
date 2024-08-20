@@ -6,3 +6,5 @@ public class MyException extends Exception{
         super(message);
     }
 }
+// throw new ArithmeticException(toString(n));
+// throw new ArithmeticException(Arrays.toString(n));

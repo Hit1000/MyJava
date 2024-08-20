@@ -31,7 +31,8 @@ public class hashSet {
         while(it.hasNext()){
             System.out.print(it.next()+" ");
         }
-        System.out.println("\nsize is : "+h1.size());
+        System.out.println("\n"+h1.contains(60));
+        System.out.println("size is : "+h1.size());
         h1.remove(60);
         System.out.println(h1);
 

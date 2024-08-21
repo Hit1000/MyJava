@@ -30,6 +30,7 @@ public class stringBuilder {
         System.out.println(s);
         s.reverse();
 
+
         System.out.println(s.substring(2));
         String k = s.substring(3,8);
         System.out.println(k);

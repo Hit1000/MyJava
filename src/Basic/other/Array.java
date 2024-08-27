@@ -59,9 +59,9 @@ public class Array {
                 {3,4},
                 {45,56,6}};
 
-        for(int[] out: arr){
+        for(int[] out: arr)
             System.out.println(Arrays.toString(out));
-        }
+
 
 
     }

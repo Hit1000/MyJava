@@ -55,7 +55,9 @@ public class Array {
         // col can be added later on
         // also known as juggled array
 
-        int[][] arr = {{3,43,4,4,45,5}, {3,4}, {45,56,6}};
+        int[][] arr = {{3,43,4,4,45,5},
+                {3,4},
+                {45,56,6}};
 
         for(int[] out: arr){
             System.out.println(Arrays.toString(out));

@@ -20,7 +20,6 @@ public class studentCompare {
 //            }
 //        });
         Arrays.sort(list, (o1, o2) -> o1.rollno - o2.rollno);
-
         System.out.println(Arrays.toString(list));
     }
 }
